@@ -1,0 +1,63 @@
+.modalBackdrop{
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modalDialog{
+    background-color: white;
+    max-width: 600px;
+    min-height: 250px;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50% , -50%);
+}
+.dialogHeader{
+    text-align: center;
+}
+.dialogContent{
+    padding: 20px;
+}
+.row{
+    display: flex;
+}
+.w_50{
+    max-width: 50%;
+    width: 100%;
+}
+.formGroup{
+    margin: 10px 15px;
+}
+.formGroup input {
+    display: block;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+}
+.modalActions{
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalActions button{
+    padding: 10px 20px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 5px;
+}
+.modalActions button.green{
+    background-color: green;
+}
+.modalActions button.red{
+    background-color: red;
+}

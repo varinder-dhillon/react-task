@@ -1,0 +1,15 @@
+.userDataRow{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userDataRow .rightSide button{
+    background-color: white;
+    padding: 5px 20px;
+    border: 1px solid #000;
+}
